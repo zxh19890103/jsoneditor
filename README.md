@@ -10,7 +10,8 @@ A web editor of json.
 <script src="jsoneditor.js?v=1.0.0"></script>
 ```
 
-### 2. copy the follow html and paste it where you want to use json editor. Note: you can change the id's value, but you shouldn't modify the class. Both of the two html block are required. And you should keep the structure no change.
+### 2. copy the following html and paste it where you want to use jsoneditor. 
+Note: you can change the id, but you shouldn't modify the class. Both of the two html blocks are required. And you'd better keep the structure no change.
 
 ```html
 <!-- Required!!! Area for displaying json -->
@@ -36,7 +37,7 @@ A web editor of json.
 </div>
 ```
 
-### 3. Javascript to work.
+### 3. Javascript to make it work.
 
 ```javascript
 var data = { 
