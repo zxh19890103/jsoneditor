@@ -1,0 +1,120 @@
+.json-view-blur {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+.json-view-mask {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2018;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+.json-view-wrap {
+    padding: 1em;
+    margin: 0 .5em .5em 0;
+    border: 1px dotted #efefef;
+    box-sizing: border-box;
+}
+.json-view {
+    margin: 0 0 .8em 0;
+    border: 1px solid #ededed;
+    padding: .2em .3em;
+    background-color: rgb(254,244, 220);
+}
+.json-view .line {
+    margin: 2px 0;
+    padding: 3px 0;
+    border: 1px solid transparent;
+}
+.json-view .line-body:hover {
+    border-bottom: 1px solid #fff;
+}
+/*indent config begin*/
+.json-view .line-brace.indent-0 {
+    padding-left: 0em;
+}
+.json-view .line-brace.indent-2 {
+    padding-left: 2em;
+}
+.json-view .line-brace.indent-4 {
+    padding-left: 4em;
+}
+.json-view .line-body.indent-0, .json-view .line-key.indent-0 {
+    padding-left: 2em;
+}
+.json-view .line-body.indent-2, .json-view .line-key.indent-2 {
+    padding-left: 4em;
+}
+.json-view .line-body.indent-4, .json-view .line-key.indent-4 {
+    padding-left: 6em;
+}
+.json-view .line-plus.indent-0 {
+    margin-left: 2em;
+}
+.json-view .line-plus.indent-2 {
+    margin-left: 4em;
+}
+.json-view .line-plus.indent-4 {
+    margin-left: 6em;
+}
+/*indent config end*/
+.json-view .line-plus {
+    cursor: pointer;
+    color: #aaa;
+    text-align: center;
+    border: 1px dotted #ddd;
+    background-color: #fff;
+}
+.json-view .line-plus:hover {
+    color: #222;
+    background-color: #def;
+}
+.json-view .key {
+    color: rgb(113, 137, 98);
+}
+.json-view .value {
+    color: rgb(19, 146, 135);
+}
+.json-view .times {
+    margin-left: 31px;
+    display: none;
+    color: rgb(255, 0, 0);
+    text-decoration-line: none;
+}
+.json-view .times:hover {
+    color: rgba(255, 0, 0, .5);
+}
+.json-view .line-text:hover > .value{
+    cursor: pointer;
+    color: rgba(19, 146, 135, .5);
+}
+.json-view .line-text:hover > .times {
+    display: inline;
+}
+.json-view-input {
+    background-color: rgba(255,255,255,.2);
+}
+.json-view-input form {
+    border: 1px solid #DDD;
+    width: 61.8%;
+    margin: 2.4em auto 0 auto;
+    padding: 12px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+}
+.json-view-input input[type=text] {
+    width: 100%;
+    outline: none;
+    padding: 5px 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
