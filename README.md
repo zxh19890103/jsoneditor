@@ -1,16 +1,16 @@
 # jsoneditor
-a web editor of .json file.
+A web editor of json.
 
 ## How to use jsoneditor?
 
-### 1. link the css and js in you html.
+### 1. link the css and js into you html.
 
 ```html
 <link rel="stylesheet" type="text/css" href="jsoneditor.css?v=1.0.0">
 <script src="jsoneditor.js?v=1.0.0"></script>
 ```
 
-### 2. copy the follow html and paste it where you want to use json editor. Note: you can change the id's value, but you shouldn't modify the class. Both of the two html block are required. And you should keep the structure.
+### 2. copy the follow html and paste it where you want to use json editor. Note: you can change the id's value, but you shouldn't modify the class. Both of the two html block are required. And you should keep the structure no change.
 
 ```html
 <!-- Required!!! Area for displaying json -->
@@ -36,7 +36,7 @@ a web editor of .json file.
 </div>
 ```
 
-### 3. code
+### 3. Javascript to work.
 
 ```javascript
 var data = { 
@@ -51,3 +51,5 @@ var data = {
 };
 var jv = new JsonViewer('jsonViewWrap', 'jsonViewInput', data);
 ```
+
+### 4. demo
