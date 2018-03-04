@@ -53,4 +53,4 @@ var jv = new JsonViewer('jsonViewWrap', 'jsonViewInput', data);
 ```
 
 ### 4. demo
-[jsoneditor-demo-gif]: http://www.zhangxinghai.cn/images/logo.png  "Json editor demo"
+![jsoneditor demo gif](http://www.zhangxinghai.cn/images/jsoneditor.gif)
