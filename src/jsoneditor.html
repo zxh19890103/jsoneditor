@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
     <head>
+        <meta charset="utf8">
         <title>Json Editor Example</title>
         <link rel="stylesheet" type="text/css" href="jsoneditor.css?v=1.0.1">
     </head>
@@ -9,6 +10,8 @@
         <div id="jsonViewWrap" class="json-view-wrap">
             <div id="jsonView" class="json-view"></div>
         </div>
+
+        <a href="https://github.com/zxh19890103/jsoneditor/blob/master/src/jsoneditor.js">Github</a>
         
         <!-- Required!!! Edit Input: for adding node or editing node. -->
         <div id="jsonViewInput" class="json-view-mask json-view-input">
@@ -28,13 +31,13 @@
             </form>
         </div>
 
-        <script src="jsoneditor.js?v=1.0.0"></script>
+        <script src="jsoneditor.js?v=1.0.0" charset="utf8"></script>
         <script>
             var pageBag = { 
                 name: "Singhi John",
                 age: 29,
                 male: true,
-                skills: ["Angular", "Vue", ".NET", "PHP"],
+                skills: ["React", "Angular", "Vue", ".NET", "PHP"],
                 address: {
                     country: "China",
                     state: "LiaoNing"
